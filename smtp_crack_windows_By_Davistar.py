@@ -1,5 +1,6 @@
 #!C:\Python35\python
 #coding:utf-8
+#AUTHOR : By Davistar
 
 import os
 import subprocess
@@ -21,13 +22,13 @@ def main():
 	os_system()
 	print()
 	print()
-	username = str(input('\033[1;96m [\033[1;94m*\033[1;96m] Enter Target Email  ~> '))
+	username = str(input('[*] Enter Target Email  ~> '))
 	print()
-	print('\033[1;96m [\033[1;94m*\033[1;96m] Target Email Selected ~> \033[1;94m'+username)
+	print('[*] Target Email Selected ~> '+username)
 	print()
-	passlist = str(input('\033[1;96m [\033[1;94m*\033[1;96m] Enter Wordlist ~> '))
+	passlist = str(input('[*] Enter Wordlist ~> '))
 	print()
-	print('\033[1;96m [\033[1;94m*\033[1;96m] Wordlist Selected ~> \033[1;94m '+passlist)
+	print('[*] Wordlist Selected ~>  '+passlist)
 	print()
 	with open(passlist, 'r') as f:
 		content = f.readlines()
