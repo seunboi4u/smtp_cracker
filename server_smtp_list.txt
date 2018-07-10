@@ -1,0 +1,3 @@
+
+gmail = smtp.gmail.com
+port = 465
