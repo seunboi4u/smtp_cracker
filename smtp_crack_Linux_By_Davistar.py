@@ -48,5 +48,5 @@ def main():
 					print('\033[1;96m [\033[1;94m$'+str('['+t1+']') +'\033[1;96m] Try Password ~> \033[1;91m' +password)
  
 
-os_system()
+
 main()
